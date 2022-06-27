@@ -35,7 +35,7 @@ Run the Server -
     
         ./gradlew bootRun
 
-        OR
+    OR
         
     a. To build the JAR
     
