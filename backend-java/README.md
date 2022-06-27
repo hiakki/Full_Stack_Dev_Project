@@ -1,4 +1,4 @@
-Building a RESTful Web Service
+#Building a RESTful Web Service
 
 What You Will Build - 
 
@@ -30,14 +30,19 @@ Requirements -
 Run the Server -
 
 1. Using gradle -
+
     a. Run directly via gradle
+    
         ./gradlew bootRun
 
         OR
-
+        
     a. To build the JAR
+    
         ./gradlew build
+    
     b. Run the jar using java
+    
         java -jar build/libs/hiakki-java-rest-service-0.0.1-SNAPSHOT.jar
 
 2. Using maven -
