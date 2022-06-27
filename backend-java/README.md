@@ -46,14 +46,19 @@ Run the Server -
         java -jar build/libs/hiakki-java-rest-service-0.0.1-SNAPSHOT.jar
 
 2. Using maven -
+
     a. Run directly via maven
+    
         ./mvnw spring-boot:run
 
     OR
 
     a. To build the JAR
+    
         ./mvnw clean package
+
     b. Run the jar using java
+    
         java -jar target/hiakki-java-rest-service-0.0.1-SNAPSHOT.jar
 
 
