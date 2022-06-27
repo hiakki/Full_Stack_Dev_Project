@@ -49,7 +49,7 @@ Run the Server -
     a. Run directly via maven
         ./mvnw spring-boot:run
 
-        OR
+    OR
 
     a. To build the JAR
         ./mvnw clean package
