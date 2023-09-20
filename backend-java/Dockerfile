@@ -10,6 +10,6 @@ COPY ./target/*.jar /opt/target/service.jar
 
 WORKDIR /opt/target
 
-CMD ["java", "-jar" "service.jar"]
+CMD java -jar service.jar
 
 EXPOSE 8080
