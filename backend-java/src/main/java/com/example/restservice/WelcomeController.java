@@ -18,4 +18,10 @@ public class WelcomeController {
 	public Welcome welcome(@RequestParam(value = "name", defaultValue = "hiAkki") String name) {
 		return new Welcome(counter.incrementAndGet(), String.format(template, name));
 	}
+
+    // ✅ Health Check Endpoint
+    @GetMapping("/health")
+    public String healthCheck() {
+        return "Service is up and running!";
+    }
 }
